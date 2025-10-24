@@ -6,4 +6,4 @@ Define each term and include one example.
 - **string** — A type of data containing chatacters
 - **number** — A type of data condaining a numerical value
 - **console.log** — A command used to pring something in the console.
-- **template literal** — A method of working with strings that allows for cleaner syntax when working with multi-line strings.
+- **template literal** — A way of working with text that easily combines both strings and variables.
