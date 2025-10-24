@@ -67,3 +67,10 @@ console.log(`The area of the rectangle is ${area} and the perimeter is ${perimet
 let userName = prompt("What is your name?");
 let favoriteNumber = prompt("What is your favorite number?");
 console.log(`${userName}'s favorite number is ${favoriteNumber}.`);
+
+// - Vocabulary Worksheet
+console.log("variable — A named storage location for a piece of data");
+console.log("string — A type of data containing chatacters");
+console.log("number — A type of data condaining a numerical value");
+console.log("console.log — A command used to pring something in the console.");
+console.log("template literal — A way of working with text that combines text and variables.");
