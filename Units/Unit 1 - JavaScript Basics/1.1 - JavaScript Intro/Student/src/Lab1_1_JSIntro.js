@@ -43,7 +43,7 @@ console.log(`I am ${age} years old.`);
       string concatenation and template literals.
       
    2. What challenges did you encounter, and how did you solve them?
-      I was trying to display ```console.log("I am ", age, " years old")``` butthere was
+      I was trying to display ```console.log("I am ", age, " years old")``` but there was
       a weird space inbetween the age and the text. I found out that using ```+``` gets rid of the space.
 
    3. Where else could this programming concept be useful?
