@@ -62,3 +62,8 @@ let height = 4;
 let area = width * height;
 let perimeter = (width + height) * 2;
 console.log(`The area of the rectangle is ${area} and the perimeter is ${perimeter}.`);
+
+// - Pseudocode Practice
+let userName = prompt("What is your name?");
+let favoriteNumber = prompt("What is your favorite number?");
+console.log(`${userName}'s favorite number is ${favoriteNumber}.`);
