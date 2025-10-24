@@ -50,3 +50,15 @@ console.log(`I am ${age} years old.`);
       The concept of variables is used in almost any program language that requires the storage of information.
       For example, it is used commonly in video games programmed in C#.
    =========================================================== */
+
+// - Guided Practice
+let a = "7";
+let b = "3";
+console.log(Number(a) + Number(b));
+
+// - Mini FRQ
+let width = 6;
+let height = 4;
+let area = width * height;
+let perimeter = (width + height) * 2;
+console.log(`The area of the rectangle is ${area} and the perimeter is ${perimeter}.`);
