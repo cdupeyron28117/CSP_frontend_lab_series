@@ -65,12 +65,21 @@ console.log("Don't be sad, be happy!".slice(0, 3)); // "Don"
 
 // 🚀 Stretch Goals
 // - Even number check using %
-let x = prompt("Insert a number:");
+let x = prompt("Insert a whole number:");
 if (Number(x) % 2 == 0) {
     console.log(`${x} is even.`);
-} else {
+} else if (Number(x) % 2 == 1) {
     console.log(`${x} is odd.`);
+} else {
+    console.log("You did not input a valid whole number.");
 }
 // - localeCompare() example
 let city1 = prompt("Name a city (all lowercase):");
 let city2 = prompt("Name another city (all lowercase):");
+if (city1.localeCompare(city2) == 1) {
+    console.log(`${city2} comes before ${city1} alphabetically.`);
+} else if (city1.localeCompare(city2) == -1) {
+    console.log(`${city1} comes before ${city2} alphabetically.`);
+} else {
+    console.log("You inputted the same city twice!");
+}
