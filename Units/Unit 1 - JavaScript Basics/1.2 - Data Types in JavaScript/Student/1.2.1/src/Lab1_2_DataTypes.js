@@ -83,3 +83,11 @@ if (city1.localeCompare(city2) == 1) {
 } else {
     console.log("You inputted the same city twice!");
 }
+
+/*
+Exit Ticket
+1. Primitive data types have no methods and aren't objects. Non-primitive data types have methods and can be objects.
+2. NaN might appear when attempting to do a mathematical function on a non-numerical value.
+3. Backticks are useful over quotes because you can utilize template literals to input variables in strings instead of extreme concatenation.
+4. Template literals in Backticks were the most useful, because I was working a lot with variables.
+*/
