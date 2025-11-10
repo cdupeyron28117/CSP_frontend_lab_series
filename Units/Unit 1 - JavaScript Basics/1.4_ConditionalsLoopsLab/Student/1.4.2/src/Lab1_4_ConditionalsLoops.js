@@ -14,19 +14,20 @@
 // 4. Create a variable 'grade' (A–F) and print "Pass" if grade is not F.
 // 5. Reflect in a comment: Why is the order of conditions important?
 let temperature = 72;
-let grade = "F";
-if (grade == "F") {
-   if (temperature == 100) { 
-      console.log("Boiling hot!")
-   } else if (temperature > 85) {
-      console.log("It's hot!");
-   } else if (temperature >= 60 && temperature <= 85) {
-      console.log("It's mild.");
-   } else {
-      console.log("It's cold!");
-   }
+if (temperature == 100) { 
+   console.log("Boiling hot!")
+} else if (temperature > 85) {
+   console.log("It's hot!");
+} else if (temperature >= 60 && temperature <= 85) {
+   console.log("It's mild.");
 } else {
+   console.log("It's cold!");
+}
+let grade = "A";
+if (grade !== "F") {
    console.log("Pass");
+} else {
+   console.log("Fail");
 }
 // The order of the if..else statements and the nested if statements matter because it goes from top down. For example, if temperature = 100 wasn't the first condition, then "It's hot!" would have been printed.
 
@@ -65,25 +66,21 @@ for (let i = 1; i <= 10; i++) {
 
 // Modify temperature to include humidity
 let humidity = 70
-if (grade == "F") {
-   if (temperature == 100) { 
-      console.log("Boiling hot!")
-   } else if (temperature > 85) {
-      console.log("It's hot!");
-   } else if (temperature >= 60 && temperature <= 85) {
-      console.log("It's mild.");
-   } else {
-      console.log("It's cold!");
-   }
-   if (humidity > 65) {
-      console.log("It's humid!");
-   } else if (humidity >= 45 && humidity <= 65) {
-      console.log("It's temperate.");
-   } else {
-      console.log("It's arid!");
-   }
+if (temperature == 100) { 
+   console.log("Boiling hot!")
+} else if (temperature > 85) {
+   console.log("It's hot!");
+} else if (temperature >= 60 && temperature <= 85) {
+   console.log("It's mild.");
 } else {
-   console.log("Pass");
+   console.log("It's cold!");
+}
+if (humidity > 65) {
+   console.log("It's humid!");
+} else if (humidity >= 45 && humidity <= 65) {
+   console.log("It's temperate.");
+} else {
+   console.log("It's arid!");
 }
 /* ===========================================================
    🎟 EXIT TICKET
