@@ -1,7 +1,7 @@
 # Lab 001 – JavaScript Intro
 
 ## 🎯 Learning Goals
-- Explain what JavaScript is and why it’s important.
+- Explain what JavaScript is and why it’s important..
 - Use `console.log()` to produce output.
 - Declare variables with `let` and `const`.
 - Reassign values using `let` and observe type changes.
